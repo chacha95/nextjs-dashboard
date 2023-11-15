@@ -1,5 +1,37 @@
-## Next.js App Router Course - Starter
+# Nextjs dashboard
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+## Local Environment
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+### Installation dependecies
+
+```bash
+$ npm i
+```
+
+### Development Tools
+
+db migration
+
+```bash
+# reset schema
+$ npm run seed
+
+# create migration
+$ yarn db:makeMigration "MIGRATION MESSAGE"
+
+# apply migration
+$ yarn db:migrate
+```
+
+### setup infra
+
+```bash
+$ docker-compose up -d
+```
+
+### Running the app
+
+```bash
+# development
+$ npm run dev
+```
